@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/ethereum/.local/bin:/home/ethereum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ethereum/.local/bin:/home/ethereum/.local/bin:/home/ethereum/.local/bin:/home/ethereum/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError: Cannot use 'in' operator to search for 'start' in node index.js
+      at /usr/share/yarn/lib/cli.js:61538:34
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/share/yarn/lib/cli.js:5305:28)
+      at /usr/share/yarn/lib/cli.js:307:12
+      at realRunCommand (/usr/share/yarn/lib/cli.js:61630:23)
+      at action.action (/usr/share/yarn/lib/cli.js:61691:16)
+      at callThroughHook (/usr/share/yarn/lib/cli.js:65530:12)
+
+npm manifest: 
+  {
+    "name": "nodejs-api-practice",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/popelev/nodejs-api-practice.git",
+    "author": "Ubuntu <test@test.test>",
+    "license": "MIT",
+    "scripts": "node index.js"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
