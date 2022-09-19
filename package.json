@@ -2,7 +2,7 @@
   "name": "nodejs-api-practice",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  
   "repository": "https://github.com/popelev/nodejs-api-practice.git",
   "author": "Ubuntu <test@test.test>",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "body-parser": "^1.20.0",
     "ethers": "^5.7.1",
     "express": "^4.18.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.1"
   }
 }
